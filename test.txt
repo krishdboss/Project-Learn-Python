@@ -41,3 +41,13 @@ follow it.
 
 do do the authentication 
 
+---------
+
+These are the change I made locally 
+
+Git push to be done 
+
+And see the changes in my git-hub 
+
+
+
