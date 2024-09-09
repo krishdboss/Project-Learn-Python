@@ -10,4 +10,8 @@ hdhhdjjd
 44567892
 12345678
 
-87654321
+87654321 
+ git push 
+git pull 
+git commit
+
