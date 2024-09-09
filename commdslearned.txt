@@ -1,0 +1,4 @@
+
+Commands I learns 
+cd cd .. pwd mkdir ls ls -ltrh rm rmdir rm -d 
+git   
