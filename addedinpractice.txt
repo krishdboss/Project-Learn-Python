@@ -22,3 +22,26 @@ git init
 cd..
 
 git status
+
+----
+------
+Git checkout practice
+Git add .
+Git commit -m ""
+Git push 
+
+Pull request 
+Merge
+
+Git checkout main 
+Git fetch 
+Git pull
+
+--
+
+"git restore <file>..." to discard changes in working directory)
+
+"git restore --staged <file>..." to unstage)
+
+
+
