@@ -1,1 +1,24 @@
 blank file
+
+Git pull
+Git fetch 
+Git push
+
+Git add .
+Git commit 
+Git status
+
+Git diff <filename>
+git checkout
+pwd
+cd
+ls -lrth
+ls
+git add .
+vim
+
+mkdir
+git init
+cd..
+
+git status
