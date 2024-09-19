@@ -46,14 +46,3 @@ Git pull
 
  mkdir
 
-
-
-
-
-
-
-
-
-
-
-git checout
