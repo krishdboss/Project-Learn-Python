@@ -46,6 +46,3 @@ Git pull
 
  mkdir
 
-"git checkout " for change branch
-:wq!
-
