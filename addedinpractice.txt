@@ -45,4 +45,7 @@ Git pull
 
 
  mkdir
+ 
+ vim for insert in file
 
+ esc. : wq! for save after insert in file
