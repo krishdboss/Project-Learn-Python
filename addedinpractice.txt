@@ -45,4 +45,5 @@ Git pull
 
 
  mkdir
-vim
+
+hello goodbye from the merge.
