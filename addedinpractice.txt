@@ -49,3 +49,6 @@ Git pull
  vim for insert in file
 
  esc. : wq! for save after insert in file
+
+git status 
+
