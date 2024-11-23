@@ -1,0 +1,196 @@
+###### fstirngs
+
+# name ="Jack"
+#print(f"hello {name}" )
+=====
+Solutions =hello Jack
+
+-----------------------------
+
+######## formatting
+
+# name ="Jack"
+# print('hello, %s' % {name} )
+ 
+Solution ===    hello, {'Jack'}
+
+# ----------------------------
+
+x = "krish"
+# y = "varun"
+# print("hello,%s %s" %  (x,y))
+ 
+soluion === hello,krish varun
+
+-----------------------------
+
+
+# index
+word= "hello"
+print(word[-3])
+print(word[3])
+
+solution === 1
+                       1
+
+
+# # -------------------------
+
+
+# slicing
+print("krish "[0 : 1])
+
+print("krishko "[0 : 6 :2 ])
+
+solution === k
+                       kih
+
+# ---------------------------------
+
+# string titel
+name="krish varun"
+print(name.title())  #titel are using for capitaling first word
+
+solution = Krish Varun
+# ---------------------------------
+replace
+# words= "krish varun!"
+# print(words.replace("kr","!")) # replace are using for replacing word with anotherword
+
+solution == !ish varun!
+
+#---------------------------------------
+
+# find
+words= "krish suchit riyansh varun!"
+x=(words.find("suchit"))
+print(x)   #find string use for finding the word in string which index number is given
+
+solution == 6
+
+txt = "Hello, welcome to my world."
+print(txt.find("e"))
+print(txt.index("e"))  
+
+solution = 1
+           1
+# ---------------------------------
+
+# count
+txt = "I love apples, apple are my favorite fruit"
+x = txt.count("apple")
+print(x)   # count sring use for counting the word in string
+
+solution = 2
+
+
+txt = "I love apples, apple are my favorite fruit"
+x = txt.count("apple", 10, 24) # it means that it will count the word from 10 to 24
+print(x)   
+
+solution = 1
+# ---------------------------------
+# upper
+
+txt = "Hello my friends"
+x = txt.upper()
+print(x)  # upper string use for capitaling the word
+
+solution = HELLO MY FRIENDS
+
+# ---------------------------------
+# lower
+
+txt = "Hello my FRIENDS"
+x = txt.lower()
+print(x) #lower string use for smalling the word
+
+solution = hello my friends
+
+# ---------------------------------
+
+# strip
+# txt = "     banana     "
+# x = txt.strip()
+# print("of all fruits", x, "is my favorite") # strip string use for removing the space from the string
+
+solution = of all fruits banana is my favorite
+
+# ---------------------------------
+
+# split
+txt = "welcome to the jungle"
+x = txt.split()
+print(x) # split string use for spliting the word
+
+solution = ['welcome', 'to', 'the', 'jungle']
+
+#--------------------------------------------------------------------
+#Creating a receipt printing program
+
+
+p1_name, p1_price = "books", 49.95
+p2_name, p2_price = "computer", 579.99
+p3_name, p3_price = "monitor", 124.89
+
+company_name = "coding temple, inc."
+company_address = "283 Franklin St."
+company_city = "Boston,MA"
+
+message = "Thanks for shopping with us today!"
+
+print("*" * 50)
+
+print("\t\t{}".format(company_name.title( )))
+print("\t\t{}".format(company_address))
+print("\t\t{}".format(company_city))
+
+print("=" * 50)
+
+print("\tProduct Name\tProduct Price")
+
+print("\t{}\t\t${}".format(p1_name.title(), p1_price))
+
+print("\t{}\t\t${}".format(p2_name.title(), p2_price))
+
+print("\t{}\t\t${}".format(p3_name.title(), p3_price))
+
+print("=" * 50)
+
+print("\t\t\tTotal")
+
+total = p1_price + p2_price + p3_price
+
+print("\t\t\t${}".format(total))
+
+print("=" * 50)
+
+print("\n\t{}\n".format(message))
+
+print("*" * 50)
+
+
+
+
+
+
+solution ==
+**************************************************
+		Coding Temple, Inc.
+		283 Franklin St.
+		Boston,MA
+==================================================
+	Product Name	Product Price
+	Books		$49.95
+	Computer		$579.99
+	Monitor		$124.89
+==================================================
+			Total
+			$754.83
+==================================================
+
+	Thanks for shopping with us today!
+
+**************************************************
+
+
