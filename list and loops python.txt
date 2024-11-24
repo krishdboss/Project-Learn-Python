@@ -1,0 +1,455 @@
+#list concept ______________________
+
+
+ nums=[6,7,8,9,10,11,12,13,14,15,16,17,18]
+print(num)
+ print(nums[1])
+ num = nums [2]
+ print(num)
+print(nums[1:5])
+
+solutions == [6,7,8,9,10,11,12,13,14,15,16,17,18]
+7
+8
+[7, 8, 9, 10] 
+
+--------------------------------
+#list of mix data types
+
+num = 4.3
+data = [num, "hello", True, 7]
+print(data)
+
+solution == [4.3, 'hello', True, 7]
+
+-------------------------------------
+#list within list
+
+data = [5,"book" ,[34,"hello"],True] 
+print( data)
+print(data[2])
+
+solution== [5, 'book', [34, 'hello'], True]
+
+[34, 'hello']
+
+-------------------------
+# accessing lists within lists
+
+data = [5,"book" ,[34,"hello"],True] 
+print( data [2]  [1])
+inner_list = data[2]
+print(inner_list[1])
+
+solution == hello
+hello
+
+----------------------------
+#changing and adding  value in list
+
+data = [5,10,15,20]
+print(data)
+data[1] = 100
+data[3]=122222222
+print = (data)
+
+solution == [5, 10, 15, 20]
+
+[5, 100, 15, 122222222]
+
+-----------------------------
+# variable storage
+# confusing___________________
+
+a = [5, 10]
+b = a
+
+print("a: {} b: {}".format(a, b))
+print("location of a[0]: {}  location of b[0]: {}".format(id(a[0]), id(b[0])))
+
+solution == a: [5, 10] b: [5, 10]
+location of a[0]: 11754024  location of b[0]: 11754024
+
+question 2 
+a[0] = 20
+print("a: {} b: {}".format(a, b))
+
+solution = a: [20, 10] b: [20, 10]
+
+-------------------------------------------------------
+# copying a list
+
+data = [5,10,15,20]
+data_copy = data[:]
+data [0]=[50]
+print("data:{} data_copy:{}".format(data, data_copy))
+
+solution == data:[[50], 10, 15, 20]	 data_copy:[5, 10, 15, 20]
+
+------------------------------------------------
+# ------------------------------------------------------------
+#for loop
+
+for num in range(5):
+  print("value : {}".format(num))
+
+solution == value : 0
+value : 1
+value : 2
+value : 3
+value : 4
+
+
+range
+for num in range (2,10,2):
+  print("value : {}".format(num))
+
+solution == value : 2
+value : 4
+value : 6
+value : 8
+
+-----------------------------------------------
+# loopinng by elements
+
+name="john smith"
+for j in name :
+  print("value : {}".format(j ))
+
+solution = value : j
+value : o
+value : h
+value : n
+value :  
+value : s
+value : m
+value : i
+value : t
+value : h
+
+-=-----------------------------------------------
+#continue statment
+
+for num in range(5):
+  if num == 3:
+    continue
+  print (num)
+
+solution == 0
+1
+2
+4
+
+------------------------------------------
+#break statment
+
+for num in range (5):
+  if num == 3:
+    break
+  print(num)
+
+solution ==0
+1
+2
+
+-----------------------------------
+
+# pass statment 
+
+# for i in range (5):
+  # add code to print number
+  # pass
+
+
+a = [0, 1, 2]
+for element in a:
+  if not element:
+    pass
+  print(element) #pass  statment is used to avoid error
+
+solution ==0
+1
+2
+
+# problem -----------
+
+
+
+
+
+for number in range(1, 101):
+  if number % 3 == 0:
+      print(number)
+solution =3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+33
+36
+39
+42
+45
+48
+51
+54
+57
+60
+63
+66
+69
+72
+75
+78
+81
+84
+87
+90
+93
+96
+99
+
+
+---------------------------------------------------------------------
+
+# while loops--------------------------------------------------------------------------------------------------
+
+
+health = 10
+while health >0:
+  print(health)
+
+solution = 10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+----------------------------------------------------------
+# infinite loop 
+
+game_over = False
+while not game_over:
+  print("game is still going")
+  game_over = True
+
+solution == game is still going 
+
+--------------------------------------------------------
+# nested loops
+
+for i in range (2):
+  for j in range (2):
+    print(i,j)
+
+solution == 0 0
+0 1
+1 0
+1 1
+
+
+
+while True:
+  user_input = input("Type something (or 'quit' to exit): ")
+  if user_input== "quit":
+      print("Exiting the program.")
+      break
+  else:
+      print(f"You typed: {user_input}")
+
+solution == Type something (or 'quit' to exit): okay
+You typed: okay
+Type something (or 'quit' to exit): quit
+Exiting the program.
+
+
+
+
+
+
+
+
+
+game_over = False
+
+while not game_over:
+    for i in range(6):  # Counting from 0 to 5
+        if i == 3:
+            game_over = True
+            break  # Exit the for loop when i reaches 3
+        print(i)
+
+solution === 0
+1
+2
+
+
+------------------------------------------------------------------------
+# checking lenth
+
+nums = [5,10,15,1,2]
+length =len(nums)
+print (length)
+
+solution == 5
+
+---------------------------------------
+# slicing
+
+nums = [5,10,15,1,2]
+print(nums[1:3])
+print(nums[:2])
+print(nums[: :2])
+print(nums[-2 :])
+
+solution == [10, 15]
+[5, 10]
+[5, 15, 2]
+[1, 2]
+
+--------------------------------
+# adding items
+
+
+nums=[10,15]
+nums.append(20)
+print(nums)
+
+solution [10,15,20
+
+--------------------------------------------
+# insert
+
+words=["ball","base"]
+words.insert(1,"glove")
+print(words)
+
+solution == ['ball', 'glove', 'base']
+
+
+---------------------------------------------
+#removing items
+
+# # removing items
+
+items=[7,1,True,"ok"]
+items.pop(0)
+print(items)
+
+solution == [1, True, 'ok']
+
+
+# remove()
+
+sports=["baseball","soccer","fottball"]
+try:
+  sports.remove("soccer")
+  
+except:
+  print("xyz")
+
+print(sports)
+
+
+solution = ['baseball', 'fottball']
+
+--------------------------------------------------
+
+
+
+# sorting a list 
+# sorted
+
+nums=[5,8,0,2]
+x=sorted(nums)
+print(nums,x) #soorted does not change the original list
+
+solution == [5, 8, 0, 2] [0, 2, 5, 8]
+
+
+
+# sort
+
+nums=[5,8,0,2]
+nums.sort()
+print(nums)
+
+solution == [0, 2, 5, 8]
+
+------------------------------------
+
+
+# conditionals and lists
+# using 'in' and "notin" keywords
+
+names = ["jack","robert","marry"]
+if "marry" in names:
+  print("found")
+
+if "jimmy "not in names:
+  print("not found")
+
+nums=[ ]
+if not nums:
+  print("empty")
+
+solution == found
+not found
+empty
+
+------------------------------------------
+# loops and lists use both
+
+# using for loops and lists
+sports=[ "baseball","basketball","fottball","hockey"]
+for sport in sports:
+  print(sport)
+
+solution == baseball
+basketball
+fottball
+hockey
+
+----------------------------------------
+
+# usinṅ while loops
+
+names =[ "bob","jack","rob","bob","robert"]
+while"bob" in names:
+  names.remove("bob")
+
+print(names)
+
+solution == ['jack', 'rob', 'robert']
+
+
+
+
+names = ["bob", "kenny", "bob", "kenny", "amanda"]
+unique_names = []
+
+for name in names:
+    if name.count(name) == 1 or name not in unique_names:
+        unique_names.append(name)
+
+print(unique_names)
+
+
+solution == ['bob', 'kenny', 'bob', 'kenny', 'amanda']
+
+--------------------------------------------------------------------
+
+
+
+
+
