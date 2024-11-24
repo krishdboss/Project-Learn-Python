@@ -449,6 +449,96 @@ solution == ['bob', 'kenny', 'bob', 'kenny', 'amanda']
 
 --------------------------------------------------------------------
 
+# functions 5 files -------jsssssssecdbvkcd fsbjh, aaudfjdfcdncjnkc fvnnffvjnfvbjhk fbjhk.fvbjk.ae fbjhkbjhk.cd fbjjkfvkjdfvbjhk.fvbjhk.fvbjhk.fvbjhk.
+
+def printinfo():
+  print("name:john smith")
+  print("Age:45")
+
+printinfo()
+
+solution == name:john smith
+Age:45
+
+================-
+
+
+def myname ():
+  print("krish")
+myname()
+
+solution == krish
+
+
+=====
+def printname(full_name):
+  print("your name is : {}".format(full_name))
+printname("johnsmith")
+printname("amanda")
+
+solution=== your name is : johnsmith
+your name is : amanda
+
+--------------------------------------------------------------------
+# multiple parameters
+
+
+def addnums(num1,num2):
+  result=num1+num2
+  print("{}+{}={}".format(num1,num2,result))
+
+addnums(5,10)
+
+solution = 5+10=15
+
+---------------------------
+
+numbers1 =[2,4,5,10]
+numbers2 =[1,3,6]
+
+def squares(nums):
+  for num in nums:
+    print(num**2)
+squares(numbers1)
+squares(numbers2)
+
+solutions== 4
+16
+25
+100
+1
+9
+36
+
+
+-----------------------------------------------------------------------
+# default parameters
+
+def calcArea(r,pi=3.14):
+  area=pi*r**2
+  print("area of circle is : {}".format(area))
+
+calcArea(2)
+
+
+solution == area of circle is : 12.56
+
+--------------------------------------------------------------------------
+# making parameters Optional
+
+def printname(first,last,middle=""):
+  if middle:
+    print("{} {}={}".format(first,middle,last))
+  else:
+    print("{} {}".format(first,last))
+
+printname("john","smith")
+
+print("john","smith","james")
+
+
+solution === john smith
+john smith jame
 
 
 
