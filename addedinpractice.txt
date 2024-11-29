@@ -46,7 +46,5 @@ Git pull
 
  mkdir
 
- vim for insert in file
- after vim use "esc :wq!" for save
 
- hello goodbye from the merge.
+
