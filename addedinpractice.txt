@@ -47,3 +47,6 @@ Git pull
  mkdir
 
 hello goodbye from the merge.
+
+shubham
+krish
