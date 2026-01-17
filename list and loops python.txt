@@ -591,6 +591,54 @@ Yeh duniya jaane mera dard
 Tujhe yeh nazar kyun aata nahi?
 
 
+---------------------------------------------------------------------------------
+
+import time
+import sys
+
+def print_lyrics():
+    lyrics = [
+        "Haathon ko sambhaale mere hathon mein",
+        "Kaise haathon ko sambhaale mere haathon mein",
+        "Jab tak neend na aaye in lakeeron mein",
+        "Baatein ho.....…",
+        "Haaye",
+    ]
+    delays = [
+        1.4 , 0.5 , 1.5 , 0.9, 0.8
+    ]
+    print("\n Arz kya hai?.......\033[0m\n ")
+    time.sleep(1.4)
+
+    for i, line in enumerate(lyrics):
+        for char in line :
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(0.09)
+        print()
+
+print_lyrics()
+
+
+
+
+
+solution - 
+Arz kya hai?.......
+ 
+Haathon ko sambhaale mere hathon mein
+Kaise haathon ko sambhaale mere haathon mein
+Jab tak neend na aaye in lakeeron mein
+Baatein ho.....…
+Haaye
+
+Process finished with exit code 0
+
+
+
+
+------------------------------------------------------------
+
 
 
 
