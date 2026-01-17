@@ -540,6 +540,57 @@ print("john","smith","james")
 solution === john smith
 john smith jame
 
+________________________________________________________________________
+import time
+import sys
+
+def print_lyrics():
+    lyrics = [
+        "main ab kyun hosh mein aata nahi?",
+        "Sukoon yeh dil kyun paata nahi?",
+        "Kyun todun khud se jo the waade?",
+        "Ke ab yeh ishq nibhana nahi",
+        "Main modun tumse jo yeh chehra",
+        "Dobara nazar milana nahi",
+        "Yeh duniya jaane mera dard",
+        "Tujhe yeh nazar kyun aata nahi?",
+    ]
+    delays = [
+        0.3, 0.3, 0.4, 0.3, 0.3, 0.3, 0.8,
+    ]
+    print(" Pal Pal : \n")
+    time.sleep(1.2)
+
+    for i, line in enumerate(lyrics):
+        for char in line :
+            sys.stdout.write(char)
+            sys.stdout.flush()
+            time.sleep(0.06)
+        print()
+    if i < len (delays):
+        time.sleep(delays[i])
+    else:
+        time.sleep(0.8)
+        
+print_lyrics()
+
+
+
+
+
+
+solution - Pal Pal : 
+
+main ab kyun hosh mein aata nahi?
+Sukoon yeh dil kyun paata nahi?
+Kyun todun khud se jo the waade?
+Ke ab yeh ishq nibhana nahi
+Main modun tumse jo yeh chehra
+Dobara nazar milana nahi
+Yeh duniya jaane mera dard
+Tujhe yeh nazar kyun aata nahi?
+
+
 
 
 
